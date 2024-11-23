@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*nav and welcome_cection -------------------------------------------------*/
+
+nav {
+    padding: 0 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: #1f2937;
+}
+
+.links_head a,
+.hero_secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero_maun {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.logo_head {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.sign_up_top {
+    background-color: #3882f6;
+    padding: 10px;
+    color: #e5e7eb;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.welcome_section_image {
+    width: 100%;
+}
+
+/*----------------------------------*/
+.welcome_section {
+    background-color: #1f2937;
+}
+
+.welcome_section_partition {
+    display: flex;
+    padding: 200px 15%;
+    align-items: center;
+    gap: 30px;
+}
+
+.welcome_section_partition_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: baseline;
+    justify-content: center;
+    height: 300px;
+}
+
+.welcome_section_partition_2 {
+    width: 100%;
+}
+
+img {
+    object-fit: cover;
+}
+
+/*some random infomation----------------------------------------------n*/
+
+.title_head_1 {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.box_edit {
+    height: 100px;
+    width: 100px;
+    border: solid #3882f6 4px;
+    border-radius: 5px;
+}
+
+.some_random_infomation {
+    text-align: center;
+    padding: 200px 20%;
+}
+
+.group {
+    display: flex;
+}
+
+.info_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*quote section----------------------------------------------n*/
+.quote_section {
+    background-color: #e5e7eb;
+    padding: 200px 20%;
+    font-style: italic;
+}
+
+.tell {
+    text-align: end;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* last----------------------------------------------n*/
+.last_section {
+    padding: 40px 15%;
+    background-color: #f9faf8;
+}
+
+.box {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 40px;
+}
+
+.sign_up_bottom {
+    background-color: #3882f6;
+    padding: 10px;
+    color: #e5e7eb;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px #e5e7eb solid;
+    width: 80px;
+    text-align: center;
+}
+.text_edit{
+    font-size: 18px;
+    font-weight: 500;
+}
